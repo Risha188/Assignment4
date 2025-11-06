@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Services Web App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <!-- This is the navbar -->
+        <nav>
+            <div>
+                <h1>Logo</h1>
+            </div>
+            <div>
+                <ul class="nav-list">
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </div>
+            <div class="book">
+                <button><b>Username</b></button>
+            </div>
+        </nav>
+
+        <!-- This is the Hero section -->
+        <section class="section-hero">
+            <div class="left">
+                <h1><span id="left">Revitalize Your Clothes with Expert </span><span id="right">Laundry Services!</span>
+                </h1>
+                <p>From premium dry cleaning to swift wash and fold, we deliver care and convenience. Schedule a pickup
+                    and
+                    rediscover the freshness off your clothes today!</p>
+                <a href="#booking-service"><button><ion-icon name="storefront" class="icon"></ion-icon>Book a service
+                        today!</button></a>
+            </div>
+            <div class="right">
+                <img src="image.png" alt="LaundryImg">
+            </div>
+        </section>
+
+        <!-- This is a service overview section -->
+        <section class="section-overview">
+            <div class="service-overview">
+                <h1>Our Achievements</h1>
+                <ul class="overview-list">
+                    <li><a href="#">15+</a></li>
+                    <li><a href="#">Laundry Services</a></li>
+                </ul>
+                <ul class="overview-list">
+                    <li><a href="#">240+</a></li>
+                    <li><a href="#">Happy Customers</a></li>
+                </ul>
+                <ul class="overview-list">
+                    <li><a href="#">2+ Yrs</a></li>
+                    <li><a href="#">Experience</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- This is the booking service section -->
+        <section id="booking-service">
+            <div class="section-booking">
+                <div class="left">
+                    <h2>Our Services</h2>
+                    <p id="p">Click On The Add To Cart Button To Add The Services To Your Cart</p>
+                    <br>
+                    <hr>
+                    <br><br>
+                    <div class="items">
+                        <div class="item-left">
+                            <p>👚Dry Cleaning &#8226 <span>₹200.00</span></p>
+                        </div>
+                        <div class="black">
+                            <button>Add Item<ion-icon name="add-circle-outline"></ion-icon></button>
+                        </div>
+                        <div class="red">
+                            <button>Remove Item<ion-icon name="remove-circle-outline"></ion-icon></button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="item-left">
+                            <p>🧺Wash & Fold &#8226 <span> ₹100.00</span></p>
+                        </div>
+                        <div class="black">
+                            <button>Add Item<ion-icon name="add-circle-outline"></ion-icon></button>
+                        </div>
+                        <div class="red">
+                            <button>Remove Item<ion-icon name="remove-circle-outline"></ion-icon></button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="item-left">
+                            <p>🥌Ironing &#8226 <span> ₹30.00</span></p>
+                        </div>
+                        <div class="black">
+                            <button>Add Item<ion-icon name="add-circle-outline"></ion-icon></button>
+                        </div>
+                        <div class="red">
+                            <button>Remove Item<ion-icon name="remove-circle-outline"></ion-icon></button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="item-left">
+                            <p>🗯Stain Removal &#8226 <span> ₹500.00</span></p>
+                        </div>
+                        <div class="black">
+                            <button>Add Item <ion-icon name="add-circle-outline"></ion-icon></button>
+                        </div>
+                        <div class="red">
+                            <button>Remove Item<ion-icon name="remove-circle-outline"></ion-icon></button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="item-left">
+                            <p>🟫Leather & Suede Cleaning &#8226 <span> ₹999.00</span></p>
+                        </div>
+                        <div class="black">
+                            <button>Add Item<ion-icon name="add-circle-outline"></ion-icon></button>
+                        </div>
+                        <div class="red">
+                            <button>Remove Item<ion-icon name="remove-circle-outline"></ion-icon></button>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <div class="item-left">
+                            <p>👗Wedding Dress Cleaning &#8226 <span> ₹2800.00</span></p>
+                        </div>
+                        <div class="black">
+                            <button>Add Item <ion-icon name="add-circle-outline"></ion-icon></button>
+                        </div>
+                        <div class="red">
+                            <button>Remove Item<ion-icon name="remove-circle-outline"></ion-icon></button>
+                        </div>
+                    </div>
+                    <br><br>
+                    <hr>
+                    <p class="item-bottom"><ion-icon name="information-circle-outline"></ion-icon>Add the items to the
+                        cart and book now</p>
+                </div>
+                <div class="right">
+                    <div id="right1">
+                        <h3>Added Items</h3>
+                        <br>
+                        <div class="Add-item">
+                            <div class="header">
+                                <div class="leftItem">
+                                    <p>S.No</p>
+                                    <p>Service Name</p>
+                                </div>
+                                <div class="price">
+                                    <p>Price</p>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="no-item">
+                                <div class="emptyI">
+                                    <ion-icon name="information-circle-outline"></ion-icon>
+                                    <h3>No Items Added</h3>
+                                    <p>Add items to the cart from the services bar</p>
+                                </div>
+                                <br><br>
+                                <div class="footer">
+                                    <p>Total Amount</p>
+                                    <p>₹0</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div id="right2">
+                        <h4>Book Now</h4>
+                        <br>
+                        <form id="bookingForm">
+                            <p>Full Name</p>
+                            <input type="text" name="user_name" placeholder="Full name" required />
+                            <br><br>
+                            <div class="info">
+                                <div class="info1">
+                                    <p>Email ID</p>
+                                    <input type="email" name="user_email" placeholder="Email" required />
+                                </div>
+                                <div class="info2">
+                                    <p>Phone Number</p>
+                                    <input type="tel" name="user_phone" placeholder="Phone number" required />
+                                </div>
+                            </div>
+                            <div class="button">
+                                <button type="submit">Book Now</button>
+                            </div>
+                        </form>
+                        <p id="thankYouMsg">✅ Thank you for Booking the Service We will get back to you soon!</p>
+                    </div>
+
+                    <div id="notify">
+                        <p><ion-icon name="information-circle-outline"></ion-icon>Add the items to the cart to book</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- This is the quality description section -->
+    <section class="quality-description">
+        <div class="qualities">
+            <div class="first">
+                <img class="image"
+                    src="https://static.vecteezy.com/system/resources/previews/021/709/675/original/laundry-service-icon-vector.jpg"
+                    alt="laundry">
+                <h3>Premium Services</h3>
+                <p>Elevate your wardrobe with our meticulous dry cleaning, ensuring garments look and feel as good as
+                    new.</p>
+            </div>
+            <div class="first">
+                <img class="image" src="https://tse3.mm.bing.net/th/id/OIP.dZ3TQ_SLbX0n500sjbwMWAHaHa?pid=Api&P=0&h=180"
+                    alt="support">
+                <h3>Quick Support</h3>
+                <p>We're commited to providing prompt solutions to ensure your experience is smooth and worry-free</p>
+            </div>
+            <div class="first">
+                <img class="image" src="https://tse1.mm.bing.net/th/id/OIP.H8jlsQfFhnXb-E2JVagtYAHaHa?pid=Api&P=0&h=180"
+                    alt="free-delivery">
+                <h3>Hassle Free Delivery</h3>
+                <p>Enjoy seemless service with our convenient pickup and delivery options, tailored to your schedule.
+                </p>
+            </div>
+            <div class="first">
+                <img class="image" src="https://tse2.mm.bing.net/th/id/OIP.xghKcU5pjMpFWhwhrsTdQAHaHa?pid=Api&P=0&h=180"
+                    alt="price">
+                <h3>Affordable Prices</h3>
+                <p>Experience exceptional care without breaking the bank - our affordable prices make laundry day
+                    stress-free.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- This is the newsletter-subscription section -->
+    <section class="newsletter-subscription">
+        <div class="newsletter">
+            <h1>Subscribe to our newsletter.</h1>
+            <form id="newsletterForm">
+                <input type="text" name="user_name" placeholder="Full name" class="inp" required />
+                <input type="email" name="user_email" placeholder="Email" class="inp" required />
+                <input type="submit" value="Subscribe" id="button">
+            </form>
+        </div>
+    </section>
+
+    <!-- This is the footer section -->
+    <footer>
+        <div class="footer-elem">
+            <div class="elem">
+                <h1>Logo</h1>
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit.</p>
+            </div>
+            <div class="elem">
+                <h3>Important Links</h3>
+                <div class="imp-links">
+                    <p>About us</p>
+                    <p>Contact us</p>
+                    <p>Privacy Policy</p>
+                    <p>Terms of use</p>
+                    <p>Refund Policy</p>
+                </div>
+            </div>
+            <div class="elem">
+                <h2>Contact</h2>
+                <p>mail@site.com</p>
+                <p>+91 91234 56780</p>
+            </div>
+            <div class="elem">
+                <h3>Follow Us</h3>
+                <div class="icons">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/email.js"></script>
+</body>
+
+</html>
