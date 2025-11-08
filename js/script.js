@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>Price</p>
         </div>
         <br>
-        <div class='item-list'></div>
+        <div class='item-list' name="service_name"></div>
         <br><br>
          <div class="footer">
             <p>Total Amount</p>
